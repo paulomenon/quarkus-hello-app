@@ -1,8 +1,4 @@
-# quarkus-hello-app
-
-Here's an updated version of the README with the `curl` testing instructions:
-
----
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
 
 # Quarkus Hello App
 
@@ -50,6 +46,8 @@ curl -X POST http://localhost:8080/welcome \
 ## Endpoints
 - **POST /welcome** - Accepts a POST request and returns a Welcome message.
 - **GET /thanks** - Accepts a GET request and returns a Thank you to our amazing organiser: {app.sponsor}
+
+
 
 ## License
 This project is licensed under the MIT License.
