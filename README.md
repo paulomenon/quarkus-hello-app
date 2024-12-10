@@ -14,7 +14,7 @@ This repository contains a simple **Quarkus-based application** that demonstrate
 Ensure you have the following installed:
 - Java 11 or later
 - Maven
-- Docker (optional, for containerization)
+- Docker or Podman (optional, for containerization)
 
 ### Running the Application
 1. Clone the repository:
