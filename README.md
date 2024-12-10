@@ -47,6 +47,26 @@ curl -X POST http://localhost:8080/welcome \
 - **POST /welcome** - Accepts a POST request and returns a Welcome message.
 - **GET /thanks** - Accepts a GET request and returns a Thank you to our amazing organiser: {app.sponsor}
 
+## Source-To-Image (S2I)
+
+[Document page](https://github.com/openshift/source-to-image?tab=readme-ov-file)
+
+## Openshift deployment
+
+```bash
+oc new-app 
+```
+
+## Kubernetes deployment
+
+### Prerequisites
+- source2image tool
+
+### MacOS
+
+```bash
+brew install source-to-image
+```
 
 
 ## License
